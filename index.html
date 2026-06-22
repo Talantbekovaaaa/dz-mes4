@@ -2,43 +2,20 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Практика Map и Filter</title>
-   <link rel="stylesheet" href="style.css">
+    <title>Счетчик символов</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Результаты работы методов массивов</h1>
-
-    <div class="section">
-        <h3>1. Доллары в сомы (map)</h3>
-        <pre id="output-soms"></pre>
+<div class="counter-card">
+    <h3>Счетчик символов</h3>
+    <textarea id="text-input" placeholder="Введите текст сюда..."></textarea>
+    <div class="stats">
+        <span>Всего: <b id="total">0</b></span>
+        <span>Осталось: <b id="remaining">50</b></span>
     </div>
+</div>
 
-    <div class="section">
-        <h3>2. Оценки в европейский формат (map)</h3>
-        <pre id="output-grades"></pre>
-    </div>
-
-    <div class="section">
-        <h3>3. Капитализация имен (map)</h3>
-        <pre id="output-names"></pre>
-    </div>
-
-    <div class="section">
-        <h3>4. HTML теги (map)</h3>
-        <pre id="output-tags"></pre>
-    </div>
-
-    <div class="section">
-        <h3>5. Номера Бишкека (filter)</h3>
-        <pre id="output-cars"></pre>
-    </div>
-
-    <div class="section">
-        <h3>6. Отфильтрованные слова (filter)</h3>
-        <pre id="output-filtered"></pre>
-    </div>
-
-    <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
