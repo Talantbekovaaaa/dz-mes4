@@ -1,0 +1,48 @@
+body {
+    background-color: #4da6ff;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.wrapper { text-align: center; }
+
+.big-cup {
+    width: 180px;
+     height: 220px;
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 0 0 40px 40px;
+    display: flex; 
+    align-items: center;
+     justify-content: center;
+    font-size: 32px;
+     font-weight: bold;
+      color: #4da6ff;
+    margin: 20px auto;
+}
+
+.cups-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 400px;
+}
+
+.cup {
+    width: 70px; height: 100px;
+    border: 2px solid white;
+    border-radius: 0 0 10px 10px;
+    display: flex; align-items: center; 
+    justify-content: center;
+    font-size: 14px; 
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+
+.cup.full { background-color: white; color: #4da6ff; }
